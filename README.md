@@ -20,7 +20,7 @@ This folder contains statistical analysis code.
 Description
 -------
 
-Setup 1 correspond to the experimental setup when the human evaluation ratings of *informativeness*, *naturalness* and *quality* are collected together. The folder **crowdflower/setup_1**, in correspondance with the paper, contains three code versions of Setup 1 - Likert, PlainME and RankME. Screenshots of the corresponding CrowdFlower tasks are shown in Fig.1:
+Setup 1 corresponds to the experimental setup when the human evaluation ratings of *informativeness*, *naturalness* and *quality* are collected together. The folder **crowdflower/setup_1**, in correspondence with the paper, contains three code versions of Setup 1 - Likert, PlainME and RankME. Screenshots of the corresponding CrowdFlower tasks are shown in Fig.1:
 
 <a href="lik_stp1.png"><img src="https://github.com/jeknov/NAACL_18_submission_RankME/blob/master/lik_stp1.png" align="left" width="31%" ></a>
 <a href="plainME_stp1.png"><img src="https://github.com/jeknov/NAACL_18_submission_RankME/blob/master/plainME_stp1.png" align="left" width="31%" ></a>
@@ -28,7 +28,7 @@ Setup 1 correspond to the experimental setup when the human evaluation ratings o
 
 <br>Fig.1. Screenshots of three methods used with Setup 1 to collect human evaluation data. Left to right - Likert, PlainME and RankME methods
 
-Setup 2 correspond to the experimental setup when the human evaluation ratings of *informativeness*, *naturalness* and *quality* are collected separately. The folder **crowdflower/setup_2** provides CrowdFlower code for three collection methods (Likert, PlainME and RankME) for each human rating (informativeness*, *naturalness* and *quality*). Screenshots of the RankME method for Setup 2 for *informativeness*, *naturalness* and *quality* are shown in Fig.2:
+Setup 2 corresponds to the experimental setup when the human evaluation ratings of *informativeness*, *naturalness* and *quality* are collected separately. The folder **crowdflower/setup_2** provides CrowdFlower code for three collection methods (Likert, PlainME and RankME) for each human rating (informativeness*, *naturalness* and *quality*). Screenshots of the RankME method for Setup 2 for *informativeness*, *naturalness* and *quality* are shown in Fig.2:
 
 <a href="rankME_stp2_inf.png"><img src="https://github.com/jeknov/NAACL_18_submission_RankME/blob/master/rankME_stp2_inf.png" align="left" width="31%" ></a>
 <a href="rankME_stp2_natur.png"><img src="https://github.com/jeknov/NAACL_18_submission_RankME/blob/master/rankME_stp2_natur.png" align="left" width="31%" ></a>
