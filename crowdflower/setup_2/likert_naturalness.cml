@@ -1,0 +1,18 @@
+<div class="html-element-wrapper">
+  <br />
+  <p>Utterance:</p>
+  <p>
+    <strong style="line-height: 1.72222;">{{ref}}</strong>
+  </p>
+</div>
+
+
+<div style="width: 100%">
+
+  <p> Please rate this utterance for its:</p>
+  <cml:ratings from="Very unnatural" to="Very natural" id="natur" label=" Naturalness" points="6" validates="required" instructions="Is this utterance natural? (i.e. could it have been produced by a native speaker?)" name="naturalness" aggregation="avg"></cml:ratings>
+
+
+</div>
+
+<hr />

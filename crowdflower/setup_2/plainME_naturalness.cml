@@ -1,0 +1,52 @@
+<header>
+  <code1>
+    <strong style="line-height: 1.72222;">Here is the STANDARD to relate to:</strong>
+  </code1>
+</header>
+
+<section>
+  <subsection2>
+    <code2>
+      <p>
+      Utterance: 
+        <br />
+        <strong style="line-height: 1.72222;">Aromi is located in the city centre. It is not family-friendly.</strong>
+      </p>
+    </code2>
+  </subsection2>
+</section>
+
+<section>
+  <subsection>
+    <code1>Naturalness
+      <br />
+      <strong style="line-height: 1.72222; border: 1px solid; padding: 4px;">100 </strong>
+    </code1>
+  </subsection>
+</section>
+
+<hr />
+
+<footer>
+  <code1>
+    <strong style="line-height: 1.72222;">Here is the TASK for you:</strong>
+  </code1>
+</footer>
+
+<section>
+  <subsection2>
+    <code2>
+      <p>
+        Utterance: 
+        <br />
+        <strong style="line-height: 1.72222;">{{ref}}</strong>
+      </p>
+    </code2>
+  </subsection2>
+</section>
+
+<section>
+  <subsection>
+    <cml:text label="Naturalness:" name="naturalness" validates="required regex maxLength:6" data-validates-regex="^[1-9]\d*$" class="short_text" aggregation="all"></cml:text>
+  </subsection>
+</section>

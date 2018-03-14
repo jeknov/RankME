@@ -1,0 +1,33 @@
+code1 {
+  display: block;
+  font-size: 18px;
+  padding: 24px 15px;
+  text-align: center;
+}
+
+code2 {
+  display: block;
+  padding: 5px 15px;
+  text-align: left;
+}
+
+section {
+  float: left;
+  width: 50%;
+}
+
+subsection {
+  float: left;
+  width: 33%
+}
+
+footer {
+  clear: both;
+  margin-bottom: 0;
+}
+
+.short_text{
+  width: 50px;
+  font-size: 10px;
+  text-align: center;
+}

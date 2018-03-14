@@ -1,0 +1,28 @@
+<div class="html-element-wrapper">
+  <br />
+  <p>Meaning representation (MR):</p>
+  <p>
+    <strong style="line-height: 1.72222;">{{mr}}</strong>
+  </p>
+  <p>Utterance:</p>
+  <p>
+    <strong style="line-height: 1.72222;">{{ref}}</strong>
+  </p>
+</div>
+
+
+<div style="width: 100%">
+  <p> Please evaluate this utterance:</p>
+
+  <cml:checkboxes label="Check those that apply:" strict="true" validates="required  yext_no_international_url" gold="true" aggregation="all">
+    <cml:checkbox label="The utterance contains additional information not present in the MR" value="added"></cml:checkbox>
+    <cml:checkbox label="The utterance misses some information from the MR" value="missing"></cml:checkbox>
+    <cml:checkbox label="The utterance reflects the MR perfectly" value="ok"></cml:checkbox>
+  </cml:checkboxes>
+
+  <p> Please rate this utterance for its:</p>
+  <cml:ratings from="Very low quality" to="Very high quality" id="qual" label=" Quality" points="6" validates="required" instructions="Is this utterance of a high quality? (in terms of its grammatical correctness, fluency and other important factors)" name="quality" aggregation="all"></cml:ratings>
+
+</div>
+
+<hr />

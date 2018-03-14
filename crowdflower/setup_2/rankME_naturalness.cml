@@ -1,0 +1,64 @@
+<header>
+  <code1>
+    <strong style="line-height: 1.72222;">Here is the STANDARD to relate to:</strong>
+  </code1>
+</header>
+
+<section>
+  <subsection2>
+    <code2>
+      <p>
+      Utterance: 
+        <br />
+        <strong style="line-height: 1.72222;">Aromi is located in the city centre. It is not family-friendly.</strong>
+      </p>
+    </code2>
+  </subsection2>
+  <subsection>
+    <code1>Naturalness
+      <br />
+      <strong style="line-height: 1.72222; border: 1px solid; padding: 4px;">100 </strong>
+    </code1>
+  </subsection>
+</section>
+
+<hr />
+
+<footer>
+  <code1>
+    <strong style="line-height: 1.72222;">Here is the TASK for you:</strong>
+  </code1>
+</footer>
+
+<section>
+  <subsection>
+    <code2>
+      <p>
+      Utterance 1: 
+        <br />
+        <strong style="line-height: 1.72222;">{{ref1}}</strong>
+      </p>
+      <cml:text label="Naturalness:" name="naturalness1" validates="required regex maxLength:6" data-validates-regex="^[1-9]\d*$" class="short_text" aggregation="all"></cml:text>
+    </code2>
+  </subsection>
+  <subsection>
+    <code2>
+      <p>
+      Utterance 2: 
+        <br />
+        <strong style="line-height: 1.72222;">{{ref2}}</strong>
+      </p>
+      <cml:text label="Naturalness:" name="naturalness2" validates="required regex maxLength:6" data-validates-regex="^[1-9]\d*$" class="short_text" aggregation="all"></cml:text>
+    </code2>
+  </subsection>
+  <subsection>
+    <code2>
+      <p>
+      Utterance 3: 
+        <br />
+        <strong style="line-height: 1.72222;">{{ref3}}</strong>
+      </p>
+      <cml:text label="Naturalness:" name="naturalness3" validates="required regex maxLength:6" data-validates-regex="^[1-9]\d*$" class="short_text" aggregation="all"></cml:text>
+    </code2>
+  </subsection>
+</section>

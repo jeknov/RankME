@@ -1,0 +1,103 @@
+<header>
+  <code1>
+    <strong style="line-height: 1.72222;">Here is the STANDARD to relate to:</strong>
+  </code1>
+</header>
+
+<section>
+  <subsection2>
+    <code2>
+      <p>
+      Meaning representation: 
+        <br />
+        <strong style="line-height: 1.72222;">name[Aromi], area[city centre], familyFriendly[no]</strong>
+      </p>
+      <p>
+      Utterance: 
+        <br />
+        <strong style="line-height: 1.72222;">Aromi is located in the city centre. It is not family-friendly.</strong>
+      </p>
+    </code2>
+  </subsection2>
+  <subsection2>
+    <code2>Quality
+      <br />
+      <strong style="line-height: 1.72222; border: 1px solid; padding: 4px;">100 </strong>
+    </code2>
+  </subsection2>
+</section>
+
+<hr />
+
+<footer>
+  <code1>
+    <strong style="line-height: 1.72222;">Here is the TASK for you:</strong>
+  </code1>
+</footer>
+
+<section>
+  <subsection2>
+    <code1>
+      <p>
+        Meaning representation: 
+        <br />
+        <strong style="line-height: 1.72222;">{{mr}}</strong>
+      </p>
+    </code1>
+  </subsection2>
+</section>
+
+<section>
+  <subsection>
+    <code2>
+      <p>
+      Utterance 1: 
+        <br />
+        <strong style="line-height: 1.72222;">{{ref1}}</strong>
+      </p>
+      <cml:text label="Quality:" name="quality1" validates="required regex maxLength:6" data-validates-regex="^[1-9]\d*$" class="short_text" aggregation="all"></cml:text>
+    </code2>
+    <code2>
+      <cml:checkboxes label="Check those that apply:" name="check1" strict="true" validates="required  yext_no_international_url" gold="true" aggregation="all">
+        <cml:checkbox label="The utterance contains additional information not present in the MR" value="added"></cml:checkbox>
+        <cml:checkbox label="The utterance misses some information from the MR" value="missing"></cml:checkbox>
+        <cml:checkbox label="The utterance reflects the MR perfectly" value="ok"></cml:checkbox>
+      </cml:checkboxes>
+    </code2>
+  </subsection>
+
+  <subsection>
+    <code2>
+      <p>
+      Utterance 2: 
+        <br />
+        <strong style="line-height: 1.72222;">{{ref2}}</strong>
+      </p>
+      <cml:text label="Quality:" name="quality2" validates="required regex maxLength:6" data-validates-regex="^[1-9]\d*$" class="short_text" aggregation="all"></cml:text>
+    </code2>
+    <code2>
+      <cml:checkboxes label="Check those that apply:" name="check2" strict="true" validates="required  yext_no_international_url" gold="true" aggregation="all">
+        <cml:checkbox label="The utterance contains additional information not present in the MR" value="added"></cml:checkbox>
+        <cml:checkbox label="The utterance misses some information from the MR" value="missing"></cml:checkbox>
+        <cml:checkbox label="The utterance reflects the MR perfectly" value="ok"></cml:checkbox>
+      </cml:checkboxes>
+    </code2>
+  </subsection>
+  <subsection>
+    <code2>
+      <p>
+      Utterance 3: 
+        <br />
+        <strong style="line-height: 1.72222;">{{ref3}}</strong>
+      </p>
+      <cml:text label="Quality:" name="quality3" validates="required regex maxLength:6" data-validates-regex="^[1-9]\d*$" class="short_text" aggregation="all"></cml:text>
+    </code2>
+    <code2>
+      <cml:checkboxes label="Check those that apply:" name="check3" strict="true" validates="required  yext_no_international_url" gold="true" aggregation="all">
+        <cml:checkbox label="The utterance contains additional information not present in the MR" value="added"></cml:checkbox>
+        <cml:checkbox label="The utterance misses some information from the MR" value="missing"></cml:checkbox>
+        <cml:checkbox label="The utterance reflects the MR perfectly" value="ok"></cml:checkbox>
+      </cml:checkboxes>
+    </code2>
+  </subsection>
+</section>

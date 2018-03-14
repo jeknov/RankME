@@ -1,0 +1,22 @@
+<div class="html-element-wrapper">
+  <br />
+  <p>Meaning representation (MR):</p>
+  <p>
+    <strong style="line-height: 1.72222;">{{mr}}</strong>
+  </p>
+  <p>Utterance:</p>
+  <p>
+    <strong style="line-height: 1.72222;">{{ref}}</strong>
+  </p>
+</div>
+
+
+<div style="width: 100%">
+
+  <p> Please rate this utterance for its:</p>
+  <cml:ratings from="Not informative at all" to="Very informative" id="inf" label=" Informativeness" points="6" validates="required" instructions="Is this utterance informative? (i.e. do you think it provides all the useful information from the Meaning Representation?)" name="informativeness"></cml:ratings>
+
+</div>
+
+<hr />
+
