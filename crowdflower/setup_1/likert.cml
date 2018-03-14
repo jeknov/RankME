@@ -1,0 +1,26 @@
+<div class="html-element-wrapper">
+  <br />
+  <p>Meaning representation:</p>
+  <p>
+    <strong style="line-height: 1.72222;">{{mr}}</strong>
+  </p>
+  <p>Utterance:</p>
+  <p>
+    <strong style="line-height: 1.72222;">{{ref}}</strong>
+  </p>
+</div>
+
+
+<div style="width: 100%">
+  <p> Please rate this utterance for its:</p>
+  <cml:ratings from="Not informative at all" to="Very informative" id="inf" label="Informativeness" points="6" validates="required" instructions="Is this utterance informative? (i.e. do you think it provides all the useful information from the Meaning Representation?)" name="informativeness" aggregation="avg"></cml:ratings>
+
+  <p> Please rate this utterance for its:</p>
+  <cml:ratings from="Very unnatural" to="Very natural" id="natur" label=" Naturalness" points="6" validates="required" instructions="Is this utterance natural? (i.e. could it have been produced by a native speaker?)" name="naturalness" aggregation="avg"></cml:ratings>
+
+  <p> Please rate this utterance for its:</p>
+  <cml:ratings from="Very low quality" to="Very high quality" id="qual" label=" Quality" points="6" validates="required" instructions="Is this utterance of a high quality? (in terms of its grammatical correctness, fluency and other important factors)" name="quality" aggregation="avg"></cml:ratings>
+
+</div>
+
+<hr />
