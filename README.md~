@@ -12,7 +12,7 @@ Contents
 This folder contains instructions, CML, CSS and JS code used in CrowdFlower tasks.
 
 ### data: ###
-This folder contains data files with human evaluation ratings collected via CrowdFlower.
+This folder contains datasets used to collect evaluation data.
 
 ### analysis: ###
 This folder contains statistical analysis code.
