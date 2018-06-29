@@ -3,7 +3,7 @@ RankME: Reliable Human Ratings for NLG
 
 _Authors: Jekaterina Novikova, Ondrej Dusek and Verena Rieser_
 
-This repository contains the dataset and code released with the submission of 
+This repository contains the dataset and code released with the submission of our
 [NAACL 2018 paper "RankME: Reliable Human Ratings for Natural Language Generation"](http://aclweb.org/anthology/N18-2012).
 
 Contents
@@ -40,7 +40,7 @@ Setup 2 corresponds to the experimental setup when the human evaluation ratings 
 Citing
 -------
 
-If you use this dataset in your work, please cite [the following paper](http://aclweb.org/anthology/N18-2012):
+If you use this code or data in your work, please cite [the following paper](http://aclweb.org/anthology/N18-2012):
 
 ```
 @inproceedings{novikova2018rankME,
