@@ -1,9 +1,10 @@
-NAACL 2018 submission
-=========================
+RankME: Reliable Human Ratings for NLG
+======================================
 
 _Authors: Jekaterina Novikova, Ondrej Dusek and Verena Rieser_
 
-This repository contains the dataset and code released with the submission of NAACL 2018 paper "RankME: Reliable Human Ratings for Natural Language Generation".
+This repository contains the dataset and code released with the submission of 
+[NAACL 2018 paper "RankME: Reliable Human Ratings for Natural Language Generation"](http://aclweb.org/anthology/N18-2012).
 
 Contents
 -------
@@ -39,7 +40,7 @@ Setup 2 corresponds to the experimental setup when the human evaluation ratings 
 Citing
 -------
 
-If you use this dataset in your work, please cite the following paper:
+If you use this dataset in your work, please cite [the following paper](http://aclweb.org/anthology/N18-2012):
 
 ```
 @inproceedings{novikova2018rankME,
@@ -48,7 +49,9 @@ If you use this dataset in your work, please cite the following paper:
   booktitle={Proceedings of the  16th Annual Conference of the North American Chapter 
              of the Association for Computational Linguistics},
   address={New Orleans, Louisiana},
-  year={2018}
+  pages={72--78},
+  year={2018},
+  url={http://aclweb.org/anthology/N18-2012},
 }
 ```
 
